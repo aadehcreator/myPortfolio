@@ -554,8 +554,7 @@ p span:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-  }
+  
 
   .adesh-portfolio {
     width: 217%;
@@ -589,6 +588,9 @@ p span:hover {
   }
   .social-details {
     margin: 17rem 0px;
+  }
+  .animated-text{
+    width: 50%;
   }
 
   .about {
