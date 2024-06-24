@@ -1,0 +1,894 @@
+.body {
+    margin: auto;
+    padding: 0px;
+  }
+  * {
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Garamond, serif;
+  }
+  
+  .adesh-portfolio {
+    width: 99%;
+    display: flex;
+    float: left;
+    padding: -1px 24px;
+    height: 120px;
+    position: absolute;
+    z-index: 1;
+  }
+  .portfolio {
+    width: 100%;
+    display: flex;
+    float: left;
+    /* height: 220px; */
+  }
+  .deatils {
+    width: 20%;
+    display: block;
+    float: left;
+    margin-left: 7rem;
+  }
+  
+  .deatils img {
+    width: 42%;
+    margin: 4px 10px;
+    border-radius: 50%;
+  }
+  
+  .div-name {
+    width: 30%;
+    display: block;
+    float: left;
+    font-size: 25px;
+    margin: 6px -28px;
+  }
+  
+  .div-name h3 {
+    font-weight: bold;
+    /* margin: 37px -41px; */
+    color: #706ade;
+  }
+  
+  .div-list-details {
+    width: 48%;
+    display: flex;
+    float: left;
+    /* MARGIN-LEFT: 127px; */
+    margin: 29px 119px;
+  }
+  
+  .div-list-details ul {
+    display: inline-block;
+    /* height: 150px; */
+  }
+  .div-list-details ul li {
+    display: inline-block;
+    margin: -4px 22px;
+    /* width: 100%; */
+    font-size: 23px;
+  }
+  .div-list-details ul li a {
+    color: #706ade;
+    font-weight: bolder;
+  }
+  
+  .banner {
+    width: 100%;
+    display: flex;
+    float: left;
+  }
+  
+  .banner-area {
+    width: 100%;
+    display: flex;
+  }
+  
+  .banner-area img {
+    width: 100%;
+  }
+  
+  .details-col {
+    width: 99%;
+    display: flex;
+    float: left;
+    position: absolute;
+    margin-top: 10rem;
+  }
+  
+  .adesh_deatils {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: -51px;
+  }
+  
+  .div-for-adesh-img img {
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .adesh_deatils h1 {
+    padding: 10px 10px;
+    color: white;
+    font-size: 60px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .adesh_deatils h1 span {
+    padding: 10px 10px;
+    color: white;
+    font-size: 30px;
+    color: #ff7f50;
+  }
+  
+  .animated-text {
+    font-size: 30px;
+    margin: -3px 4px 48px 5rem;
+    width: 81%;
+    color: white;
+  }
+  
+  .animated-text {
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    margin-bottom: 80px;
+  }
+  
+  .animated-text span {
+    position: relative;
+  }
+  
+  .animated-text span::before {
+    content: "Youtuber";
+    color: #ff7f50;
+    animation: words 20s infinite;
+  }
+  
+  .animated-text span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #2f3542;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+  }
+  
+  @keyframes cursor {
+    to {
+      border-left: 2px solid #ff7f5000;
+    }
+  }
+  
+  @keyframes words {
+    0%,
+    20% {
+      content: "Front End Developer";
+    }
+    21%,
+    40% {
+      content: "Blogger";
+    }
+    41%,
+    60% {
+      content: "Developer";
+    }
+    61%,
+    80% {
+      content: "Designer";
+    }
+    81%,
+    100% {
+      content: "Gamer";
+    }
+  }
+  
+  @keyframes typing {
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+      width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+      width: calc(100% + 8px);
+    }
+  }
+  
+  .adesh_deatils a {
+    padding: 18px 73px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+  }
+  .adesh_deatils a:hover {
+    background-color: aqua;
+  }
+  
+  .social-details {
+    position: absolute;
+    top: 50%;
+    border: 2px solid #eee;
+    border-left: 2px solid #eee;
+    transform: translateY(-50%);
+    float: left;
+  }
+  
+  .social-sites {
+    width: 4rem;
+  }
+  
+  .social-sites a {
+    width: 100%;
+    display: block;
+    padding: 1.2rem;
+    border-bottom: 2px solid #eee;
+    transition: background 0.3s;
+  }
+  .social-sites a img {
+    width: 100%;
+  }
+  
+  .social-sites a:hover {
+    background-color: aliceblue;
+  }
+  
+  .about {
+    width: 100%;
+    display: flex;
+    float: left;
+  }
+  
+  .about_me {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .me {
+    width: 100%;
+    width: 100%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin: 50px 0rem;
+  }
+  
+  .me h2 {
+    font-size: 40px;
+  }
+  .me p {
+    font-size: 20px;
+    color: darkgray;
+  }
+  .work_skills {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .get_to_know {
+    width: 50%;
+    display: block;
+    float: left;
+    padding-left: 11rem;
+    text-align: justify;
+  }
+  .get_to_know p span {
+    color: darkgray;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-line: underline;
+  }
+  .get_to_know p {
+    padding-bottom: 35px;
+  }
+  
+  .skills {
+    width: 50%;
+    display: block;
+    float: left;
+    padding-left: 6rem;
+  }
+  
+  .skills ul {
+    width: 100%;
+    margin-left: -4rem;
+  }
+  .skills ul li {
+    display: inline-block;
+    margin: 17px 12px 3px 19px;
+    background-color: rgb(230, 226, 226);
+    padding: 10px 9px 10px 9px;
+    border-radius: 5px;
+    color: rgb(98, 97, 97);
+    font-weight: bold;
+  }
+  .skills ul li:hover {
+    background-color: rgb(244, 75, 14);
+  }
+  
+  p span:hover {
+    background-color: aqua;
+    border-radius: 3px;
+  }
+  
+  .div_button {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .div_button a {
+    padding: 11px 14px 11px 15px;
+    font-size: 30px;
+    font-weight: bolde;
+    text-transform: uppercase;
+    margin: 11px 5px 1px -3px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .div_button a:hover {
+    background-color: chocolate;
+  }
+  
+  .projects-area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .projects-col {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .project {
+    width: 100%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin: 50px 0rem;
+  }
+  
+  .div-project-area {
+    width: 50%;
+    display: block;
+    float: left;
+    position: absolute;
+  }
+  
+  .div-project-area img {
+    width: 69.9%;
+    height: 333px;
+    margin: 47px 186px;
+    border-radius: 3px;
+  }
+  
+  .div-project-area2 {
+    width: 50%;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: 28.5rem;
+  }
+  
+  .div-project-area2 img {
+    width: 69.9%;
+    height: 333px;
+    margin: 18px 189px;
+    border-radius: 3px;
+  }
+  
+  .div-project-area3 {
+    width: 50%;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: 57rem;
+  }
+  
+  .div-project-area3 img {
+    width: 69.9%;
+    height: 333px;
+    margin: 8px 189px;
+    border-radius: 3px;
+  }
+  
+  .project h2 {
+    font-size: 40px;
+  }
+  .project p {
+    font-size: 20px;
+    color: darkgray;
+  }
+  
+  .projects-link-imgs {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .projects_imgs {
+    width: 50%;
+    display: block;
+    float: left;
+    margin-left: 78px;
+    padding-bottom: 0px;
+  }
+  
+  .projects_imgs img {
+    width: 100%;
+  }
+  
+  .projects_link {
+    width: 40%;
+    display: block;
+    float: left;
+    padding: 10px 10px;
+  }
+  
+  .projects_link h2 {
+    margin: 50px 1px;
+    color: #da5a1d;
+  }
+  .projects_link p {
+    margin: 50px 10px 61px 0px;
+  
+    width: 64%;
+  }
+  
+  .contact_form {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 85px;
+  }
+  
+  .contact {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(../images/editimg.png);
+    background-size: contain;
+    background-color: blue;
+  }
+  
+  .contact h2 {
+    font-size: 40px;
+    color: #f30707;
+  }
+  .contact p {
+    font-size: 20px;
+    color: #c81e1e;
+  }
+  .div_form {
+    text-align: center;
+    background-color: blue;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/editimg.png);
+    padding-top: 5rem;
+  }
+  
+  .div_form form {
+    height: 700px;
+    background-color: #141314bd;
+    width: 50%;
+    margin-left: 25rem;
+    border-radius: 5px;
+    padding-top: 55px;
+  }
+  
+  .form-area {
+    background-color: white;
+  }
+  .label {
+    margin-right: 26rem;
+    padding: 26px 0px;
+    /* padding-top: 20px; */
+    color: white;
+    font-size: 20px;
+  }
+  .div_form input {
+    background-color: #c9c4c4;
+    height: 51px;
+    width: 63%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .div_form textarea {
+    background-color: #c9c4c4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    border: none;
+  }
+  .form-button {
+    padding: 38px 1px;
+  }
+  
+  .form-button button {
+    padding: 13px 60px;
+    border-radius: 11px;
+    border: none;
+    font-size: 20px;
+    background-color: #7d7d8894;
+    color: white;
+    font-weight: 700;
+  }
+  ::placeholder {
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  
+  /*media query for responsive*/
+  @media only screen and (max-width: 600px) {
+    .adesh-portfolio {
+      width: 217%;
+      display: block;
+      float: left;
+    }
+  
+    .deatils {
+      width: 80%;
+    }
+    .div-list-details {
+      width: 80%;
+    }
+  
+    .banner {
+      width: 226%;
+    }
+    .adesh_deatils {
+      width: 100%;
+    }
+    .adesh_deatils p {
+      width: 103%;
+      margin-left: 5rem;
+    }
+    .adesh_deatils h1 {
+      width: 115%;
+      margin-left: 1rem;
+      font-size: 40px;
+    }
+    .adesh_deatils a {
+      margin-left: 6rem;
+    }
+    .social-details {
+      /* margin: 6rem 0px; */
+      /* height: 352px; */
+      display: none;
+    }
+    .animated-text {
+      width: 116%;
+      margin-left: 5px;
+      margin-bottom: 50px;
+    }
+  
+    .about {
+      width: 226%;
+    }
+    .me {
+      width: 99%;
+      font-weight: bold;
+    }
+    .work_skills {
+      width: 50%;
+      display: block;
+      float: left;
+    }
+    .work_skills {
+      width: 100%;
+      display: block;
+      float: left;
+    }
+    .get_to_know {
+      width: 100%;
+      display: block;
+      float: left;
+      margin: 10px -97px;
+      font-size: 22px;
+    }
+    .skills {
+      width: 100%;
+      display: block;
+      float: left;
+      margin: 44px -14px;
+      font-size: 22px;
+    }
+    .adesh_deatils a:hover {
+      background-color: aqua;
+    }
+    .div_button a:hover {
+      background-color: chocolate;
+    }
+    p span:hover {
+      background-color: aqua;
+      border-radius: 3px;
+    }
+    .skills ul li:hover {
+      background-color: rgb(244, 75, 14);
+    }
+  
+    .projects-area {
+      width: 223%;
+    }
+    .projects_imgs {
+      margin: 10px 32px;
+      width: 92%;
+    }
+    .projects_link {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .projects_link h2 {
+      margin: 10px 10px;
+    }
+    .projects_link p {
+      margin: 2rem 9rem;
+      /* text-align: center; */
+      font-size: 20px;
+    }
+  
+    .div-project-area {
+      width: 100%;
+    }
+  
+    .div-project-area img {
+      width: 141%;
+      height: 361px;
+      margin: 48px 147px;
+      border-radius: 6px;
+    }
+  
+    .div-project-area2 {
+      width: 100%;
+    }
+  
+    .div-project-area2 img {
+      width: 141%;
+      height: 361px;
+      margin: 20rem 9rem;
+      border-radius: 6px;
+    }
+  
+    .div-project-area3 {
+      width: 100%;
+    }
+  
+    .div-project-area3 img {
+      width: 141%;
+      height: 361px;
+      margin: 39rem 9rem;
+      border-radius: 6px;
+    }
+  
+    .contact_form{
+      width: 227%;
+      display: block;
+      float: left;
+  }
+  
+  .contact{
+    width: 100%;
+  }
+    
+  
+  
+    .div_form form{
+      width: 72%;
+      margin: 10px 112px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*media query for responsive*/
+  @media only screen and (max-width: 667px) {
+    .adesh-portfolio {
+      width: 217%;
+      display: block;
+      float: left;
+    }
+  
+    .deatils {
+      width: 80%;
+    }
+    .div-list-details {
+      width: 80%;
+    }
+  
+    .banner {
+      width: 226%;
+    }
+    .adesh_deatils {
+      width: 100%;
+    }
+    .adesh_deatils p {
+      width: 103%;
+      margin-left: 5rem;
+    }
+    .adesh_deatils h1 {
+      width: 115%;
+      margin-left: 1rem;
+      font-size: 40px;
+    }
+    .adesh_deatils a {
+      margin-left: 6rem;
+    }
+    .social-details {
+      /* margin: 6rem 0px; */
+      /* height: 352px; */
+      display: none;
+    }
+    .animated-text {
+      width: 116%;
+      margin-left: 5px;
+      margin-bottom: 50px;
+    }
+  
+    .about {
+      width: 226%;
+    }
+    .me {
+      width: 99%;
+      font-weight: bold;
+    }
+    .work_skills {
+      width: 50%;
+      display: block;
+      float: left;
+    }
+    .work_skills {
+      width: 100%;
+      display: block;
+      float: left;
+    }
+    .get_to_know {
+      width: 100%;
+      display: block;
+      float: left;
+      margin: 10px -97px;
+      font-size: 22px;
+    }
+    .skills {
+      width: 100%;
+      display: block;
+      float: left;
+      margin: 44px -14px;
+      font-size: 22px;
+    }
+    .adesh_deatils a:hover {
+      background-color: aqua;
+    }
+    .div_button a:hover {
+      background-color: chocolate;
+    }
+    p span:hover {
+      background-color: aqua;
+      border-radius: 3px;
+    }
+    .skills ul li:hover {
+      background-color: rgb(244, 75, 14);
+    }
+  
+    .projects-area {
+      width: 223%;
+    }
+    .projects_imgs {
+      margin: 10px 32px;
+      width: 92%;
+    }
+    .projects_link {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .projects_link h2 {
+      margin: 10px 10px;
+    }
+    .projects_link p {
+      margin: 2rem 9rem;
+      /* text-align: center; */
+      font-size: 20px;
+    }
+  
+    .div-project-area {
+      width: 100%;
+    }
+  
+    .div-project-area img {
+      width: 141%;
+      height: 361px;
+      margin: 48px 147px;
+      border-radius: 6px;
+    }
+  
+    .div-project-area2 {
+      width: 100%;
+    }
+  
+    .div-project-area2 img {
+      width: 141%;
+      height: 361px;
+      margin: 20rem 9rem;
+      border-radius: 6px;
+    }
+  
+    .div-project-area3 {
+      width: 100%;
+    }
+  
+    .div-project-area3 img {
+      width: 141%;
+      height: 361px;
+      margin: 39rem 9rem;
+      border-radius: 6px;
+    }
+  
+    .contact_form{
+      width: 227%;
+      display: block;
+      float: left;
+  }
+  
+  .contact{
+    width: 100%;
+  }
+    
+  
+  
+    .div_form form{
+      width: 72%;
+      margin: 10px 112px;
+    }
+  
+  }
+  
+  
+    
+  
+  
+  
+  
+  
