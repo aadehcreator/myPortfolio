@@ -711,7 +711,7 @@ p span:hover {
 }
 
 /*media query for xr 667*/
-@media only screen and (max-width: 667px) {
+@media screen and (min-width: 320px) and (max-width: 667px) {
   .adesh-portfolio {
     width: 217%;
     display: block;
@@ -744,7 +744,6 @@ p span:hover {
     margin-left: 4rem;
   }
   .social-details {
-    
     display: none;
   }
   .animated-text {
@@ -816,7 +815,7 @@ p span:hover {
   }
   .projects_link p {
     margin: 2rem 9rem;
-  
+
     font-size: 20px;
   }
 
@@ -826,8 +825,8 @@ p span:hover {
 
   .div-project-area img {
     width: 141%;
-    height: 335px;
-    margin: 48px 141px;
+    height: 361px;
+    margin: 48px 147px;
     border-radius: 6px;
   }
 
@@ -837,8 +836,8 @@ p span:hover {
 
   .div-project-area2 img {
     width: 141%;
-    height: 329px;
-    margin: 18rem 8.7rem;
+    height: 357px;
+    margin: 20rem 8.9rem;
     border-radius: 6px;
   }
 
@@ -848,8 +847,8 @@ p span:hover {
 
   .div-project-area3 img {
     width: 141%;
-    height: 332px;
-    margin: 37rem 8.5rem;
+    height: 356px;
+    margin: 39.5rem 8.9rem;
     border-radius: 6px;
   }
 
