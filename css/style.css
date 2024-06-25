@@ -734,31 +734,31 @@ p span:hover {
 
 /* Crazy CSS overrides here monitor */
 .adesh-portfolio{
-  width: 100% !important;
+  width: 100% git;
   display: flex;
 
 }
 
 .div-list-details{
-  width: 100% !important;
+  width: 100% ;
 }
 .div-project-area img{
-  width: 70% !important;
-  height: 277px !important;
-  margin: 39px 171px !important;
+  width: 70% ;
+  height: 277px ;
+  margin: 39px 171px ;
   
 }
 
 .div-project-area2 img{
-  width: 70% !important;
-  height: 277px !important;
-  margin: -38px 171px !important;
+  width: 70% ;
+  height: 277px ;
+  margin: -38px 171px ;
   
 }
 .div-project-area3 img{
-  width: 70% !important;
-  height: 277px !important;
-  margin: -115px 171px !important;
+  width: 70% ;
+  height: 277px ;
+  margin: -115px 171px ;
   
 }
   
