@@ -553,7 +553,7 @@ p span:hover {
   padding: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   /* For mobile phones: */
   .adesh-portfolio {
     width: 217%;
@@ -709,4 +709,38 @@ p span:hover {
     width: 72%;
     margin: 10px 112px;
   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1280px) {
+
+/* Crazy CSS overrides here */
+.adesh-portfolio{
+  width: 100%;
+  display: flex;
+
+}
+
+.div-list-details{
+  width: 100%;
+}
+.div-project-area img{
+  width: 70%;
+  height: 277px;
+  margin: 39px 171px;
+  
+}
+
+.div-project-area2 img{
+  width: 70%;
+  height: 277px;
+  margin: -38px 171px;
+  
+}
+.div-project-area3 img{
+  width: 70%;
+  height: 277px;
+  margin: -115px 171px;
+  
+}
+  
 }
