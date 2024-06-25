@@ -744,3 +744,28 @@ p span:hover {
 }
   
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 1440px) {
+.div-project-area img{
+  width: 71%;
+  height: 311px;
+  margin: 45px 181px;
+}
+.div-project-area2 img{
+  width: 71%;
+  height: 311px;
+  margin: 15px 178px;
+}
+
+.div-project-area3 img{
+  width: 71%;
+  height: 311px;
+  margin: -13px 178px;
+}
+
+
+
+
+
+}
