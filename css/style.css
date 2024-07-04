@@ -274,7 +274,9 @@
   display: block;
   margin: 50px 0rem;
 }
-
+.burger {
+  display: none;
+}
 .me h2 {
   font-size: 40px;
 }
@@ -409,7 +411,6 @@ p span:hover {
   float: left;
   position: absolute;
   margin-top: 57rem;
-
 }
 
 .div-project-area3 img {
@@ -588,11 +589,11 @@ p span:hover {
     font-size: 35px;
     margin-top: 1px;
   }
-  .details-col{
+  .details-col {
     width: 100%;
   }
 
-  .adesh_deatils{
+  .adesh_deatils {
     width: 100%;
   }
   .adesh_deatils a {
@@ -607,8 +608,7 @@ p span:hover {
     margin-left: 5px;
     margin-bottom: 50px;
     margin-top: -51px;
-}
-  
+  }
 
   .about {
     width: 226%;
@@ -676,28 +676,18 @@ p span:hover {
     font-size: 20px;
   }
 
-  .div-project-area {
-    width: 100%;
-  }
-
   .div-project-area img {
-    width: 141% !important;
-    height: 280px !important;
-    margin: 47px 124px !important;
+    width: 122% !important;
+    height: 136px !important;
+    margin: 44px 102px !important;
     border-radius: 6px;
-    }
-  
-
-  .div-project-area2 {
-    width: 100% !important;
   }
 
   .div-project-area2 img {
-    width: 141% !important;
-    height: 288px !important;
-    margin: 14rem 7.5rem !important;
-    border-radius: 6px !important;
-
+    width: 122% !important;
+    height: 136px !important;
+    margin: 4.5px 76px !important;
+    border-radius: 6px;
   }
 
   .div-project-area3 {
@@ -705,12 +695,11 @@ p span:hover {
   }
 
   .div-project-area3 img {
-    width: 141% !important;
-    height: 285px !important;
-    margin: 31rem 7.5rem !important;
-    border-radius: 6px !important;
-}
-  
+    width: 60.5% !important;
+    height: 136px !important;
+    margin: 48.5px 76px !important;
+    border-radius: 6px;
+  }
 
   .contact_form {
     width: 227%;
@@ -728,72 +717,199 @@ p span:hover {
   }
 }
 
-/*++=================*/
-
+/*
 @media only screen and (max-width: 1280px) {
+  /* Crazy CSS overrides here monitor *
+  .adesh-portfolio {
+    width: 100% git;
+    display: flex;
+  }
 
-/* Crazy CSS overrides here monitor */
-.adesh-portfolio{
-  width: 100% git;
-  display: flex;
+  .div-list-details {
+    width: 100%;
+  }
+  .div-project-area img {
+    width: 70%;
+    height: 277px;
+    margin: 39px 171px;
+  }
 
-}
-
-.div-list-details{
-  width: 100% ;
-}
-.div-project-area img{
-  width: 70% ;
-  height: 277px ;
-  margin: 39px 171px ;
-  
-}
-
-.div-project-area2 img{
-  width: 70% ;
-  height: 277px ;
-  margin: -38px 171px ;
-  
-}
-.div-project-area3 img{
-  width: 70% ;
-  height: 277px ;
-  margin: -115px 171px ;
-  
-}
-  
-}
-
+  .div-project-area2 img {
+    width: 70%;
+    height: 277px;
+    margin: -38px 171px;
+  }
+  .div-project-area3 img {
+    width: 70%;
+    height: 277px;
+    margin: -115px 171px;
+  }
+}*
 
 @media only screen and (max-width: 1440px) {
-  /*monitor laptop*/
-.div-project-area img{
-  width: 71%;
-  height: 311px;
-  margin: 45px 181px;
+  /*monitor laptop*
+  .div-project-area img {
+    width: 71%;
+    height: 311px;
+    margin: 45px 181px;
+  }
+  .div-project-area2 img {
+    width: 71%;
+    height: 311px;
+    margin: 15px 178px;
+  }
+
+  .div-project-area3 img {
+    width: 71%;
+    height: 311px;
+    margin: -13px 178px;
+  }
 }
-.div-project-area2 img{
-  width: 71%;
-  height: 311px;
-  margin: 15px 178px;
+*/
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .div-list-details {
+    display: none;
+  }
+  .deatils {
+    flex-direction: row-reverse;
+    float: left;
+    position: relative;
+    right: 110px;
+  }
+  .deatils img {
+    vertical-align: middle;
+    height: 60px;
+    width: 60px;
+  }
+  .div-name {
+    float: left;
+    position: relative;
+    right: 520px;
+    bottom: 20px;
+  }
+  .burger {
+    position: relative;
+    top: 15px;
+    right: 450px;
+
+    display: block;
+  }
+
+  .burger i {
+    font-size: 25px;
+  }
+
+  .banner-area {
+    width: 70%;
+    height: 280px;
+  }
+  .adesh_deatils {
+    width: 50%;
+    margin: -5rem 30px;
+  }
+
+  .adesh_deatils h1 {
+    font-size: 20px;
+  }
+  .adesh_deatils h1 span {
+    font-size: 20px;
+  }
+  .animated-text {
+    font-size: 20px;
+    padding-top: 1.5rem;
+    margin-left: -1rem;
+  }
+
+  .adesh_deatils a {
+    font-size: 15px;
+  }
+  .me p {
+    width: 40%;
+    font-size: 15px;
+  }
+  .work_skills {
+    width: 100%;
+    color: white;
+  }
+  .work_skills p {
+    font-size: 20px;
+  }
+  .get_to_know {
+    width: 50%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+  .skills ul {
+    width: 50%;
+    margin: -0px -5rem;
+  }
+  .projects-col {
+    width: 100%;
+    color: white;
+  }
+  .project H2 {
+    width: 50%;
+  }
+  .project P {
+    width: 40%;
+    font-size: 15px;
+  }
+  .projects-link-imgs {
+    width: 100%;
+    color: white;
+  }
+
+  .projects_imgs {
+    width: 40%;
+  }
+
+  .div-project-area {
+    width: 50%;
+    height: 10%;
+    margin: -15px -25px;
+  }
+  .projects_link {
+    margin-left: -10rem;
+  }
+  .projects_link h2 {
+    font-size: 25px;
+    width: 40%;
+    margin-left: 11rem;
+  }
+
+  .projects_link p {
+    font-size: 15px;
+    width: 40%;
+    margin-left: 11rem;
+  }
+  .div_button {
+    margin-left: -2rem;
+    padding: 10px 10px;
+  }
+
+  .div_button a {
+    font-size: 20px;
+  
+  }
+.contact{
+  width: 50%;
 }
 
-.div-project-area3 img{
-  width: 71%;
-  height: 311px;
-  margin: -13px 178px;
+.div_form{
+  width: 80%;
+  margin-left: -7rem;
+  display: block;
+  float: left;
 }
 
-
-
-
-
-}
-
-
-/* medai query for redmi phone*/
-
-@media screen and (device-width: 360px) and (min-device-height: 540px) and (-webkit-device-pixel-ratio: 3) {
 
 
 }
