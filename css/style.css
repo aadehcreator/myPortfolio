@@ -559,7 +559,7 @@ p span:hover {
 @media only screen and (max-width: 720px) {
   /* For mobile phones: */
   .adesh-portfolio {
-    width: 217% !important;
+    width: 200% !important;
     display: block !important ;
     float: left;
   }
@@ -571,7 +571,8 @@ p span:hover {
   }
 
   .banner {
-    width: 226%;
+    width: 150%;
+    height: 100%;
   }
   .adesh_deatils {
     width: 100%;
@@ -714,9 +715,9 @@ p span:hover {
   }
 }
 
-/*
+
 @media only screen and (max-width: 1280px) {
-  /* Crazy CSS overrides here monitor *
+  /* Crazy CSS overrides here monitor */
   .adesh-portfolio {
     width: 100% git;
     display: flex;
@@ -741,10 +742,10 @@ p span:hover {
     height: 277px;
     margin: -115px 171px;
   }
-}*
+}
 
 @media only screen and (max-width: 1440px) {
-  /*monitor laptop*
+  /*monitor laptop*/
   .div-project-area img {
     width: 71%;
     height: 311px;
@@ -762,7 +763,8 @@ p span:hover {
     margin: -13px 178px;
   }
 }
-*/
+
+
 @media only screen and (max-width: 720px) {
   header {
     display: flex;
@@ -919,4 +921,4 @@ p span:hover {
   .div_form textarea {
     width: 100%;
   }
-}
+} */
